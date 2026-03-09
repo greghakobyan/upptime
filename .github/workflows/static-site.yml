@@ -17,3 +17,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           command: site
+      - uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./status-page/__sapper__/export
+          publish_branch: gh-pages
