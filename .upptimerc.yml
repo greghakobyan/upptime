@@ -1,0 +1,49 @@
+# DVS Status Page — Upptime Configuration
+# https://upptime.js.org/docs/configuration
+
+owner: greghakobyan
+repo: upptime
+
+sites:
+  - name: DVS Marketing Site
+    url: https://digitalvelocitysystems.com
+    expectedStatusCodes:
+      - 200
+
+  - name: DVS App
+    url: https://app.digitalvelocitysystems.com
+    expectedStatusCodes:
+      - 200
+      - 307
+      - 401
+
+  - name: DVS Mattermost
+    url: https://team.digitalvelocitysystems.com
+    expectedStatusCodes:
+      - 200
+
+status-website:
+  cname: ""
+  name: DVS System Status
+  theme: dark
+  logoUrl: https://digitalvelocitysystems.com/favicon.ico
+  baseUrl: /upptime
+
+user-agent: "DVS-Upptime-Monitor/1.0"
+
+assignees:
+  - greghakobyan
+
+i18n:
+  activeIncidents: Active Incidents
+  allSystemsOperational: All Systems Operational
+  incidentReport: Incident Report
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "*/5 * * * *"
+  uptime: "*/5 * * * *"
