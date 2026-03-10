@@ -4,11 +4,11 @@ This repository contains the uptime monitor and status page for Digital Velocity
 
 ## Monitored Services
 
-| Service | URL |
-|---------|-----|
-| DVS Marketing Site | https://digitalvelocitysystems.com |
-| DVS App | https://app.digitalvelocitysystems.com |
-| DVS Mattermost | https://team.digitalvelocitysystems.com |
+| Service            | URL                                     |
+| ------------------ | --------------------------------------- |
+| DVS Marketing Site | https://digitalvelocitysystems.com      |
+| DVS App            | https://app.digitalvelocitysystems.com  |
+| DVS Mattermost     | https://team.digitalvelocitysystems.com |
 
 ## Status Page
 
@@ -18,6 +18,7 @@ Once GitHub Pages is enabled, the status page will be available at:
 ## Setup
 
 GitHub Pages must be enabled manually:
+
 1. Go to **Settings → Pages**
 2. Set source to **Deploy from a branch**
 3. Select `gh-pages` branch, `/ (root)` folder
@@ -25,4 +26,4 @@ GitHub Pages must be enabled manually:
 
 ---
 
-*Managed by Blueprint (DVS DevOps)*
+_Managed by Blueprint (DVS DevOps)_
