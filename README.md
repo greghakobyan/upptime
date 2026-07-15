@@ -4,11 +4,11 @@ This repository contains the independently hosted uptime monitor and public stat
 
 ## Monitored services
 
-| Service | URL |
-| --- | --- |
-| RunBright Website | https://runbright.io |
-| RunBright App | https://app.runbright.io/api/health |
-| RunBright Operations | https://ops.runbright.io/login |
+| Service              | URL                                 |
+| -------------------- | ----------------------------------- |
+| RunBright Website    | https://runbright.io                |
+| RunBright App        | https://app.runbright.io/api/health |
+| RunBright Operations | https://ops.runbright.io/login      |
 
 ## Status page
 
