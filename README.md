@@ -1,29 +1,21 @@
-# DVS System Status
+# RunBright Status
 
-This repository contains the uptime monitor and status page for Digital Velocity Systems, powered by [Upptime](https://upptime.js.org).
+This repository contains the independently hosted uptime monitor and public status page for RunBright, powered by [Upptime](https://upptime.js.org).
 
-## Monitored Services
+## Monitored services
 
-| Service            | URL                                     |
-| ------------------ | --------------------------------------- |
-| DVS Marketing Site | https://digitalvelocitysystems.com      |
-| DVS App            | https://app.digitalvelocitysystems.com  |
-| DVS Mattermost     | https://team.digitalvelocitysystems.com |
+| Service | URL |
+| --- | --- |
+| RunBright Website | https://runbright.io |
+| RunBright App | https://app.runbright.io/api/health |
+| RunBright Operations | https://ops.runbright.io/login |
 
-## Status Page
+## Status page
 
-Once GitHub Pages is enabled, the status page will be available at:
-`https://greghakobyan.github.io/upptime/`
+The public status page is available at [runbrightstatus.com](https://runbrightstatus.com).
 
-## Setup
-
-GitHub Pages must be enabled manually:
-
-1. Go to **Settings → Pages**
-2. Set source to **Deploy from a branch**
-3. Select `gh-pages` branch, `/ (root)` folder
-4. Save
+The status site is built and served by GitHub Pages so it remains available independently of RunBright's Vercel applications.
 
 ---
 
-_Managed by Blueprint (DVS DevOps)_
+_Managed by RunBright Operations_

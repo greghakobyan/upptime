@@ -1,35 +1,59 @@
-# DVS Status Page — Upptime Configuration
+# RunBright Status Page — Upptime Configuration
 # https://upptime.js.org/docs/configuration
 
 owner: greghakobyan
 repo: upptime
 
 sites:
-  - name: DVS Marketing Site
-    url: https://digitalvelocitysystems.com
+  - name: RunBright Website
+    url: https://runbright.io
     expectedStatusCodes:
       - 200
 
-  - name: DVS App
-    url: https://app.digitalvelocitysystems.com
+  - name: RunBright App
+    url: https://app.runbright.io/api/health
     expectedStatusCodes:
       - 200
-      - 307
-      - 401
+    __dangerous__body_down_if_text_missing: '"status":"ok"'
 
-  - name: DVS Mattermost
-    url: https://team.digitalvelocitysystems.com
+  - name: RunBright Operations
+    url: https://ops.runbright.io/login
     expectedStatusCodes:
       - 200
 
 status-website:
-  cname: ""
-  name: DVS System Status
+  cname: runbrightstatus.com
+  name: RunBright Status
   theme: dark
-  logoUrl: https://digitalvelocitysystems.com/favicon.ico
-  baseUrl: /upptime
+  logoUrl: https://runbrightstatus.com/runbright-symbol.png
+  favicon: https://runbrightstatus.com/favicon-32.png
+  introTitle: "**RunBright** system status"
+  introMessage: Live availability for RunBright's website, app, and operations services.
+  css: |
+    :root {
+      --body-background-color: #132624;
+      --body-text-color: #F7F2EA;
+      --card-background-color: #102724;
+      --nav-background-color: #102724;
+      --nav-border-bottom-color: #2A4844;
+      --nav-current-border-bottom-color: #3DB2A2;
+      --card-border-color: #2A4844;
+      --up-border-left-color: #3DB2A2;
+      --tag-color: #132624;
+      --tag-up-background-color: #3DB2A2;
+      --submit-button-border-color: #147A70;
+      --submit-button-background-color: #147A70;
+    }
+    article {
+      border-radius: 0.75rem;
+    }
+  navbar:
+    - title: Status
+      href: /
+    - title: RunBright
+      href: https://runbright.io
 
-user-agent: "DVS-Upptime-Monitor/1.0"
+user-agent: "RunBright-Upptime-Monitor/1.0"
 
 assignees:
   - greghakobyan
