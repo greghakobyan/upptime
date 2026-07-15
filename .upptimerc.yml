@@ -25,8 +25,8 @@ status-website:
   cname: runbrightstatus.com
   name: RunBright Status
   theme: dark
-  logoUrl: /runbright-symbol.png
-  favicon: /favicon-32.png
+  logoUrl: //runbrightstatus.com/runbright-symbol.png
+  favicon: //runbrightstatus.com/favicon-32.png
   introTitle: "**RunBright** system status"
   introMessage: Live availability for RunBright's website, app, and operations services.
   css: |
