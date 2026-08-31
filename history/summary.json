@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 254,
-    "timeDay": 408,
-    "timeWeek": 310,
-    "timeMonth": 227,
-    "timeYear": 254,
+    "time": 260,
+    "timeDay": 579,
+    "timeWeek": 344,
+    "timeMonth": 234,
+    "timeYear": 260,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 881,
-    "timeDay": 1011,
-    "timeWeek": 790,
-    "timeMonth": 891,
-    "timeYear": 881,
+    "time": 877,
+    "timeDay": 700,
+    "timeWeek": 789,
+    "timeMonth": 873,
+    "timeYear": 877,
     "dailyMinutesDown": {}
   },
   {
@@ -41,18 +41,19 @@
     "icon": "https://icons.duckduckgo.com/ip3/ops.runbright.io.ico",
     "slug": "run-bright-operations",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 709,
-    "timeDay": 560,
-    "timeWeek": 1087,
-    "timeMonth": 740,
-    "timeYear": 709,
+    "uptime": "99.26%",
+    "uptimeDay": "65.21%",
+    "uptimeWeek": "95.03%",
+    "uptimeMonth": "98.86%",
+    "uptimeYear": "99.26%",
+    "time": 701,
+    "timeDay": 499,
+    "timeWeek": 978,
+    "timeMonth": 712,
+    "timeYear": 701,
     "dailyMinutesDown": {
-      "2026-08-30": 0
+      "2026-08-31": 171,
+      "2026-08-30": 330
     }
   }
 ]
